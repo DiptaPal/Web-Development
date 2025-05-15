@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Audio & Video</title>
+        <link rel="stylesheet" href="./styles/index.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="audio.html">Audio</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="audio-video.html">Audio & Video</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <section>
+                    <div>
+                        <h1>Audio</h1>
+                        <audio
+                            controls
+                            src="./Adele - Hello (Official Music Video).mp3"
+                        ></audio>
+
+                        <h1>Video</h1>
+                        <video controls>
+                            <source
+                                src="./videoplayback.mp4"
+                                type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </section>
+                <section>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam blanditiis laborum recusandae omnis sapiente. Minima
+                    aliquid facilis sint reprehenderit quas veritatis omnis
+                    fuga, consequatur consequuntur iusto quisquam veniam
+                    excepturi quod?
+                </section>
+                <section>
+                    <h2>Please fill up the form</h2>
+                    <form action="">
+                        <label for="name">Name:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your Name"
+                            required
+                        />
+                        <br /><br />
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your Email"
+                            required
+                        />
+                        <br /><br />
+                        <label for="phone">Phone:</label>
+                        <input
+                            type="number"
+                            id="phone"
+                            name="phone"
+                            placeholder="Your Phone Number"
+                            required
+                        />
+                        <br /><br />
+                        <fieldset>
+                            <legend>Pick One Option</legend>
+                            <input
+                                type="radio"
+                                id="option1"
+                                name="option"
+                                value="Option 1"
+                            />
+                            <label for="option1">Option 1</label>
+                            <br />
+                            <input
+                                type="radio"
+                                id="option2"
+                                name="option"
+                                value="Option 2"
+                            />
+                            <label for="option2">Option 2</label>
+                            <br />
+                        </fieldset>
+                        <fieldset>
+                            <legend>Give your feedback</legend>
+                            <textarea
+                                name=""
+                                id=""
+                                rows="10"
+                                cols="30"
+                            ></textarea>
+                        </fieldset>
+                        <br /><br />
+                        <input type="reset" value="Reset" />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <p><small> &copy 2026. All rights reserved</small></p>
+        </footer>
+    </body>
+</html>
