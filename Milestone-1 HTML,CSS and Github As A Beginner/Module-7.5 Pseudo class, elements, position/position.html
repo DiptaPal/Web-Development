@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Position</title>
+        <style>
+            .container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 100vh;
+                background-color: lightblue;
+            }
+            .name {
+                width: 100px;
+                height: 100px;
+                background-color: coral;
+                text-align: center;
+                line-height: 100px;
+                font-size: 24px;
+            }
+            .box {
+                position: relative;
+            }
+            .boy {
+                z-index: 10;
+            }
+            .ring {
+                top: -70px;
+                z-index: 5;
+            }
+            .water {
+                top: -150px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Position</h1>
+        <div class="container">
+            <!-- Flow Related -->
+            <div class="name">Static</div>
+            <div class="name">Relative</div>
+            <div class="name">Absolute</div>
+            <!-- Scroll Related -->
+            <div class="name">Fixed</div>
+            <div class="name">Sticky</div>
+        </div>
+        <div class="swim-container">
+            <div class="box boy">
+                <img src="./image/boy.svg" alt="boy" />
+            </div>
+            <div class="box ring">
+                <img src="./image/ring.svg" alt="ring" />
+            </div>
+            <div class="box water">
+                <img src="./image/water.svg" alt="water" />
+            </div>
+        </div>
+    </body>
+</html>

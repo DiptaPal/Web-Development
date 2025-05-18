@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pseudo</title>
+        <style>
+            h3 {
+                color: peru;
+            }
+            h3:hover {
+                color: tomato;
+                background-color: skyblue;
+            }
+            input:focus {
+                color: blue;
+                outline: 0;
+                border: 1px solid purple;
+            }
+            input:visited {
+                color: gray;
+            }
+            /* li:last-child {
+                color: red;
+            } */
+            /* li:first-child {
+                color: red;
+            } */
+            li:nth-child(2n + 1) {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>My Heading</h3>
+        <input type="text" name="" id="" />
+        <input type="text" name="" id="" />
+        <input type="text" name="" id="" />
+        <a href="http://google.com">Google</a>
+        <a href="http://facebook.com">Facebook</a>
+        <a href="http://twitter.com">Twitter</a>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+    </body>
+</html>
