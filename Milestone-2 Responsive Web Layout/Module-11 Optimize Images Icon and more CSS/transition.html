@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>transition</title>
+        <style>
+            .box {
+                width: 100px;
+                height: 100px;
+                background-color: peachpuff;
+                border: 2px solid tomato;
+                /* property name | duration | easing function | delay */
+                transition: width 5s linear 0.5s,
+                    background-color 3s ease-in-out 0.5s,
+                    transform 2s ease-in-out 0.5s;
+            }
+            .box:hover {
+                width: 400px;
+                background-color: royalblue;
+                transform: rotate(45deg) scale(1.5) translateX(100px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </body>
+</html>
