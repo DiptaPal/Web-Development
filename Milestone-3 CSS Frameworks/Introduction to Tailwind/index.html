@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Introduction to Tailwind</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <section>
+                <h1 class="text-3xl font-bold underline">
+                    Introduction to Tailwind
+                </h1>
+                <p>
+                    Tailwind CSS is a utility-first CSS framework that provides
+                    low-level utility classes to build custom designs without
+                    leaving your HTML.
+                </p>
+                <p>
+                    It allows for rapid UI development by composing utilities
+                    directly in your markup, promoting a more efficient
+                    workflow.
+                </p>
+                <p>
+                    Tailwind's design philosophy encourages the use of small,
+                    reusable classes that can be combined to create complex
+                    designs, making it easy to maintain and scale your styles.
+                </p>
+            </section>
+            <section>
+                <h2 class="text-5xl">This is large text</h2>
+                <h3 class="text-3xl">This is medium text</h3>
+                <p>Normal Text</p>
+                <p class="font-bold">Bold Text</p>
+                <p class="text-blue-500 font-bold">Blue Text</p>
+                <p class="text-center bg-gray-500 text-white">Center Text</p>
+                <div
+                    class="h-14 bg-linear-to-t from-sky-500 to-indigo-500"
+                ></div>
+            </section>
+            <div class="border">
+                <h3>Title</h3>
+                <p>Content</p>
+            </div>
+            <section class="w-1/2 mx-auto border-8 border-orange-500 p-2">
+                <h3>About us</h3>
+                <p>
+                    We are a team of passionate developers who love creating
+                    beautiful and functional web applications using modern
+                    technologies.
+                </p>
+            </section>
+            <hr />
+            <section class="md:bg-yellow-400">
+                <h3>My Responsiveness</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Repellat, voluptatem saepe. Quaerat, repellat architecto
+                    molestiae sit, eligendi impedit tenetur possimus aliquid
+                    fugiat rem quae minima?
+                </p>
+            </section>
+            <hr />
+            <section>
+                <h3>My Flexible Flex</h3>
+                <div class="flex justify-between items-center">
+                    <div
+                        class="w-32 h-32 text-2xl font-bold border border-2 border-blue-400 rounded-lg"
+                    >
+                        Item-1
+                    </div>
+                    <div
+                        class="w-32 h-32 text-2xl font-bold border border-2 border-blue-400 rounded-lg"
+                    >
+                        Item-2
+                    </div>
+                    <div
+                        class="w-32 h-32 text-2xl font-bold border border-2 border-blue-400 rounded-lg"
+                    >
+                        Item-3
+                    </div>
+                    <div
+                        class="w-32 h-32 text-2xl font-bold border border-2 border-blue-400 rounded-lg"
+                    >
+                        Item-4
+                    </div>
+                </div>
+            </section>
+            <hr />
+            <section>
+                <h2>Grid Section</h2>
+
+                <div
+                    class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4"
+                >
+                    <div class="bg-blue-200 p-4">Grid Item 1</div>
+                    <div class="bg-blue-300 p-4 lg:col-span-2 md: col-span-0">
+                        Grid Item 2
+                    </div>
+                    <div class="bg-blue-400 p-4">Grid Item 3</div>
+                    <div class="bg-blue-500 p-4">Grid Item 4</div>
+                    <div class="bg-blue-600 p-4">Grid Item 5</div>
+                    <div class="bg-blue-700 p-4">Grid Item 6</div>
+                    <div class="bg-blue-800 p-4">Grid Item 7</div>
+                    <div class="bg-blue-900 p-4">Grid Item 8</div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
