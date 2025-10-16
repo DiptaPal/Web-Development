@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+        <link rel="stylesheet" href="./styles/form.css" />
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <section>
+                <h2>Please fill up the form.</h2>
+                <form action="">
+                    <label for="name">
+                        Your Name:
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Your Name"
+                        />
+                    </label>
+                    <label for="email">
+                        Your Email:
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Your Email"
+                        />
+                    </label>
+                    <label for="phone">
+                        Your Phone:
+                        <input
+                            type="number"
+                            name="phone"
+                            id="phone"
+                            placeholder="Your Phone"
+                        />
+                    </label>
+                    <fieldset>
+                        <legend>Pick one color:</legend>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue" />Blue
+                        </label>
+                        <label for="red">
+                            <input type="radio" name="color" id="red" />Red
+                        </label>
+                        <label for="orange">
+                            <input
+                                type="radio"
+                                name="color"
+                                id="orange"
+                            />Orange
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Pick one or more items</legend>
+                        <label for="pen">
+                            <input type="checkbox" name="item" id="pen" />Pen
+                        </label>
+                        <label for="paper">
+                            <input
+                                type="checkbox"
+                                name="item"
+                                id="paper"
+                            />Paper
+                        </label>
+                        <label for="bag">
+                            <input
+                                required
+                                type="checkbox"
+                                name="item"
+                                id="bag"
+                            />Bag
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Special Instructions</legend>
+                        <textarea name="" id=""></textarea>
+                    </fieldset>
+                    <input type="reset" value="Reset" />
+                    <input type="submit" value="Submit" />
+                </form>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
