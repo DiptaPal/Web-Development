@@ -1,0 +1,20 @@
+.parent {
+    padding: 25px;
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    height: 350px;
+    /* align-items: stretch; by default */
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child {
+    border: 2px solid rgb(15, 158, 160);
+    background: rgb(178, 228, 229);
+    padding: 20px;
+    font-size: 18px;
+    margin: 10px 0;
+    /* display: inline; */
+}
