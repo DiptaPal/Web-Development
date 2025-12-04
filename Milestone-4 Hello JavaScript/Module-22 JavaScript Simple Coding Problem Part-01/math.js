@@ -1,0 +1,11 @@
+const min = Math.min(12, 34, 45, 345, 23, -3);
+const max = Math.max(12, 34, 45, 345, 23, -3);
+console.log(min, max);
+console.log(Math.PI);
+console.log(Math.abs(-88));
+console.log(Math.round(2.25));
+console.log(Math.round(2.85));
+console.log(Math.floor(2.5));
+console.log(Math.floor(2.7));
+console.log(Math.ceil(2.7));
+console.log(Math.round(Math.random()*10));
