@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Comment Box</title>
+        <style>
+            .comment {
+                border: 2px solid blue;
+                border-radius: 10px;
+                background-color: lightcyan;
+                padding: 10px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Awesome Comment Box. Write what is in your mind!!!</h1>
+        <section>
+            <h3>All Comments here</h3>
+            <div id="comment-container">
+                <p class="comment">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eligendi modi, odit ducimus illum iusto rem dolore expedita
+                    optio fuga illo vel corporis necessitatibus quasi quo nisi
+                    iste nihil, est dignissimos?
+                </p>
+                <p class="comment">
+                    Autem nesciunt modi officia consectetur tempore, accusamus
+                    amet inventore perferendis commodi voluptatum eligendi quos,
+                    et repudiandae recusandae. Cum dolore cupiditate, nesciunt
+                    inventore aspernatur repellendus veritatis. Veniam voluptas
+                    ad fuga quae.
+                </p>
+                <p class="comment">
+                    Earum molestiae, odit in tempora sed reprehenderit quaerat
+                    quia magnam corporis culpa est amet? Aliquid sit accusamus
+                    quibusdam quis atque sapiente incidunt labore nobis
+                    similique iure. Repellendus nemo enim aliquam!
+                </p>
+            </div>
+            <!-- <form> -->
+            <textarea name="" id="comment-box" rows="5" cols="60"></textarea>
+            <p id="error"></p>
+            <br />
+            <button id="btn-post-comment">Post Comment</button>
+            <!-- </form> -->
+        </section>
+
+        <script>
+            // step-1: set an event handler to the button
+            document
+                .getElementById("btn-post-comment")
+                .addEventListener("click", function () {
+                    //step-2; get the text  written in the comment box
+                    const commentBox = document.getElementById("comment-box");
+                    const commentBoxValue = commentBox.value;
+
+                    // step-3: get the parent node where to publish comment
+                    const commentContainer =
+                        document.getElementById("comment-container");
+
+                    if (commentBoxValue.length === 0) {
+                        const error = document.getElementById("error");
+                        error.style.color = "red";
+                        error.style.textTransform = "capitalize";
+                        error.innerText = "Please write comment first.";
+                    } else {
+                        // step-4: create a comment and set in innerText
+                        const pElement = document.createElement("p");
+                        pElement.classList.add("comment");
+                        pElement.innerText = commentBoxValue;
+
+                        // step-5: append the new p tag to parent Node
+                        commentContainer.appendChild(pElement);
+                        commentBox;
+
+                        // step-6: clean the text area
+                        commentBox.value = "";
+                    }
+                });
+        </script>
+    </body>
+</html>
