@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bubble</title>
+        <style>
+            body {
+                border: 2px solid red;
+                margin: 2px;
+            }
+            section {
+                border: 2px solid green;
+                margin: 2px;
+            }
+            ul {
+                border: 2px solid purple;
+                margin: 2px;
+            }
+            li {
+                border: 2px solid blue;
+                margin: 2px;
+            }
+        </style>
+    </head>
+    <body id="body">
+        <h1>Explore Even Bubble</h1>
+        <section id="list-container">
+            <h3>List of things</h3>
+            <ul id="list-item">
+                <li id="item-1">Lorem, ipsum.</li>
+                <li id="item-2">Nobis, quas.</li>
+                <li id="item-3">Natus, voluptates.</li>
+                <li id="item-4">Dignissimos, non!</li>
+                <li id="item-5">Asperiores, dicta!</li>
+                <li id="item-6">Fugit, aut.</li>
+            </ul>
+        </section>
+
+        <script>
+            // list item 2 click handler
+            document
+                .getElementById("item-2")
+                .addEventListener("click", function (event) {
+                    console.log("item 2 clicked.");
+                    // even.stopPropagation();
+                    event.stopImmediatePropagation();
+                });
+
+            // list item 2 second click handler
+            document
+                .getElementById("item-2")
+                .addEventListener("click", function (event) {
+                    console.log("item 2 second clicked.");
+                    event.stopPropagation();
+                });
+            // list item 2 third click handler
+            document
+                .getElementById("item-2")
+                .addEventListener("click", function (event) {
+                    console.log("item 2 third clicked.");
+                    event.stopPropagation();
+                });
+
+            // ol click handler
+            document
+                .getElementById("list-item")
+                .addEventListener("click", function () {
+                    console.log("ol clicked.");
+                });
+
+            // section click handler
+            document
+                .getElementById("list-container")
+                .addEventListener("click", function () {
+                    console.log("section clicked.");
+                });
+
+            // body click handler
+            document
+                .getElementById("body")
+                .addEventListener("click", function () {
+                    console.log("body clicked.");
+                });
+        </script>
+    </body>
+</html>

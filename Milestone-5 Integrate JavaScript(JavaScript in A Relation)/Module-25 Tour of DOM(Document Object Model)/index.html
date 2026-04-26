@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tour of DOM</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+        <style>
+            .fruits-container li {
+                color: yellowgreen;
+            }
+            #fruit-title {
+                color: black;
+            }
+            .important-place {
+                color: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to my DOM</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+                illo cupiditate laboriosam accusantium velit inventore facere
+                explicabo ratione deleniti, ipsa harum corrupti beatae sint
+                incidunt voluptate consectetur nostrum voluptatum dicta.
+            </p>
+        </header>
+        <main id="main-container">
+            <section>
+                <h1>My Awesome DOM</h1>
+                <ul>
+                    <li>Long Goal</li>
+                    <li>Web Development</li>
+                    <li>Every Day</li>
+                </ul>
+            </section>
+            <section class="fruits-container">
+                <h1 id="fruits-title" class="some-class random-class blue-bg">
+                    Fruits I Like
+                </h1>
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Orange</li>
+                </ul>
+            </section>
+            <section id="places-container" class="large-text">
+                <h1 id="places-title">Places I like to visit</h1>
+                <ul id="places-list">
+                    <li class="important-place">London</li>
+                    <li class="important-place">Paris</li>
+                    <li class="other-place">Grace</li>
+                </ul>
+            </section>
+        </main>
+        <script src="./js/dom.js"></script>
+        <script src="./js/append.js"></script>
+        <script src="./js/styleInJS.js"></script>
+        <script>
+            // getElementsByTagName: forEach
+            const liCollection = document.getElementsByTagName("li");
+            // console.log(liCollection);
+            for (const li of liCollection) {
+                // console.log(li.innerText);
+            }
+
+            const h1Collection = document.getElementsByTagName("h1");
+            for (const h1 of h1Collection) {
+                // console.log(h1.innerText);
+            }
+
+            // getElementByID: forEach
+            const fruitTitle = document.getElementById("fruits-title");
+            fruitTitle.innerText = "Fruits changed by JS";
+
+            // getElementByClassName: forEach
+            const someClass =
+                document.getElementsByClassName("important-place");
+            console.log(someClass);
+
+            // querySelectorAll : forEach and forOf use kora jai
+            const someLi = document.querySelectorAll(".fruits-container li");
+            console.log(someLi);
+            for (const li of someLi) {
+                console.log(li.innerText);
+            }
+
+            // querySelector
+            const firstLi = document.querySelector(".fruits-container li");
+            console.log(firstLi);
+
+            // getAttribute
+            const title = document.getElementById("fruits-title");
+            console.log(title.getAttribute("class"));
+            title.classList.remove("blue-bg");
+            title.classList.add("purple-bg");
+            console.log(title.getAttribute("class"));
+
+            //setAttribute
+            const title2 = document.getElementById("fruits-title");
+            title2.setAttribute("title", "tooltip set by JavaScript");
+
+            //innerHTML
+            /* const fruits = (document.getElementsByClassName(
+                "fruits-container"
+            )[0].innerHTML = "<h2>ABC wow DOM is Changing</h2>"); */
+            // console.log(fruits);
+
+            // nodeList
+            const placesContainerNode =
+                document.getElementById("places-container");
+            console.log(placesContainerNode.childNodes);
+
+            console.log(placesContainerNode.childNodes[1]);
+
+            console.log(placesContainerNode.firstChild);
+
+            console.log(placesContainerNode.childNodes[3].childNodes);
+
+            console.log(placesContainerNode.childNodes[4].nextSibling);
+
+            console.log(placesContainerNode.childNodes[4].previousSibling);
+
+            const placesUL = document.querySelector("#places-container ul");
+
+            console.log(placesUL);
+
+            const li = document.createElement("li");
+            li.innerText = "Brand New place to go.";
+            placesUL.appendChild(li);
+            console.log(placesUL);
+
+            const li2 = document.createElement("li");
+            li2.innerText = "another dynamic li";
+            placesUL.appendChild(li2);
+            console.log(placesUL);
+
+            console.log(placesUL.parentNode);
+        </script>
+    </body>
+</html>
