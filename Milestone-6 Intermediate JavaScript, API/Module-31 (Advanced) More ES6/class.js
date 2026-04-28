@@ -39,3 +39,4 @@ person1.address();
 const person2 = new Person("Dip", 30, "MBA", "UK");
 console.log(person2);
 person2.address();
+console.log(person2 instanceof Person);

@@ -28,5 +28,6 @@ console.log(person4);
 // we can't access status because of encapsulation
 // console.log(person4.status); //undefine
 // console.log(person4.#status); //error
-
+person4.sleep();
 person4.action();
+console.log(person4.age);
