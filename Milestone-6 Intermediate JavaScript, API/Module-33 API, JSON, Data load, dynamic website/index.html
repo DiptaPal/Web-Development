@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            #post-container {
+                max-width: 1160px;
+                margin: 50px auto;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+            .post-card {
+                border: 1px solid #ddd;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 1px 1px 1px 1px gray;
+                height: calc(100% - 20px);
+            }
+            .post-card p {
+                text-align: justify;
+            }
+        </style>
+        <title>JSON</title>
+    </head>
+    <body>
+        <h1>Welcome to Data Load Page</h1>
+        <button onclick="loadPost()">Load Posts</button>
+
+        <div id="post-container"></div>
+
+        <script src="./script.js"></script>
+        <script src="./posts.js"></script>
+    </body>
+</html>
