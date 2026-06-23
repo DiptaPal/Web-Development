@@ -1,0 +1,6 @@
+.student, .singer {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid salmon;
+}
