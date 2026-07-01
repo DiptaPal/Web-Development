@@ -1,0 +1,16 @@
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    max-width: 120px;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.card{
+    border: 2px solid gold;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
