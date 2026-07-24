@@ -3,7 +3,7 @@ import bannerBg from "../../assets/bg-shadow.png";
 const Hero = () => {
     return (
         <div
-            className="hero min-h-[480px] rounded-lg"
+            className="hero min-h-120 rounded-lg"
             style={{
                 backgroundImage: `url(${bannerBg})`,
                 backgroundSize: "cover",
