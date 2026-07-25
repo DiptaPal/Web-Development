@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still receive an invalid credentials error.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "1002",
+    "title": "Billing Inquiry - Double Charged for Subscription",
+    "description": "Customer noticed two pending charges on their credit card statement for the current monthly billing cycle.",
+    "customer": "Sarah Jenkins",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": "1003",
+    "title": "Feature Request - Export Data to CSV",
+    "description": "Customer requested an automated daily export function to dump reporting analytics into CSV format.",
+    "customer": "Michael Chen ",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": "1004",
+    "title": "Integration Error - Salesforce Sync Failing",
+    "description": "Automated webhook sync with Salesforce instance returns a 500 Internal Server error during scheduled update.",
+    "customer": "Emily Davis",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": "1005",
+    "title": "UI Bug - Dashboard Layout Broken on Mobile",
+    "description": "The main navigation menu overlays key metric cards when viewed on screen resolutions smaller than 768px.",
+    "customer": "Alex Rivera",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": "1006",
+    "title": "Account Cancellation Request",
+    "description": "User requested assistance in closing their enterprise subscription account prior to the auto-renewal date.",
+    "customer": "David Miller",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": "1007",
+    "title": "Email Notifications Not Sending",
+    "description": "Transactional email receipts are failing to deliver to corporate domains with strict DMARC checks.",
+    "customer": "Jessica Taylor",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": "1008",
+    "title": "Performance Issues - Slow Report Generation",
+    "description": "Generating quarterly summary reports takes over 45 seconds and frequently times out during peak hours.",
+    "customer": "Robert Wilson",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": "1009",
+    "title": "Two-Factor Authentication Setup Failed",
+    "description": "User is not receiving SMS verification codes during 2FA onboarding on international mobile numbers.",
+    "customer": "Amanda White",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-23"
+  },
+  {
+    "id": "1010",
+    "title": "Branding Update - Invoice PDF Footer",
+    "description": "Update company logo and copyright text across all customer-facing transactional PDF invoices.",
+    "customer": "Brian Martinez",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-01-24"
+  }
+]
