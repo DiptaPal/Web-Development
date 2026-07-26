@@ -6,7 +6,7 @@ import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import TicketContainer from './Components/TicketContainer/TicketContainer'
 
-const fetchTickets = fetch("../public/ticket.json").then(res => res.json());
+const fetchTickets = fetch("/ticket.json").then(res => res.json());
 function App() {
   const [countInProgress, setCountInProgress] = useState(0);
   const [resolveTickets, setResolveTickets] = useState([]);
