@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": 19.99,
+    "currency": "GBP",
+    "billingPeriod": "month",
+    "description": "Perfect for beginners who want access to essential gym facilities and basic fitness support.",
+    "popular": false,
+    "features": [
+      "Unlimited gym access",
+      "Access to cardio equipment",
+      "Access to weight training area",
+      "Locker room access",
+      "Free fitness assessment",
+      "Mobile app access",
+      "Free Wi-Fi throughout the gym",
+      "Water refill stations"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": 34.99,
+    "currency": "GBP",
+    "billingPeriod": "month",
+    "description": "Ideal for regular gym members who want classes, guidance, and extra training support.",
+    "popular": true,
+    "features": [
+      "Everything in Basic Plan",
+      "Unlimited group fitness classes",
+      "Personalized workout program",
+      "1 personal training session per month",
+      "Nutrition guidance and meal suggestions",
+      "Guest pass (1 per month)",
+      "Priority class booking",
+      "Access to cycling and HIIT classes"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": 59.99,
+    "currency": "GBP",
+    "billingPeriod": "month",
+    "description": "Best for fitness enthusiasts who want full access, premium coaching, and luxury amenities.",
+    "popular": false,
+    "features": [
+      "Everything in Standard Plan",
+      "Unlimited personal training sessions",
+      "Access to sauna and steam room",
+      "Recovery and stretching zone access",
+      "Body composition analysis every month",
+      "VIP locker and towel service",
+      "Unlimited guest passes",
+      "24/7 gym access"
+    ]
+  }
+]
