@@ -1,0 +1,12 @@
+.family-tree div{
+    border: 2px solid tan;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.family-tree div h3{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
