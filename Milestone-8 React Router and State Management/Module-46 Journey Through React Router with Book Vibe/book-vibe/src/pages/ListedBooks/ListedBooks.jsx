@@ -7,7 +7,6 @@ import { getStoredBooks } from '../../utility/addToLS';
 
 const ListedBooks = () => {
     const booksData = useLoaderData();
-    console.log(booksData);
 
     const storedReadBooksData = getStoredBooks("read");
     const storeWishBooksData = getStoredBooks("wish");
