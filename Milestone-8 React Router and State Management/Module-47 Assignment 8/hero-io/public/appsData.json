@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    "title": "TaskFlow",
+    "companyName": "FlowTech",
+    "id": 1,
+    "description": "A simple task management app that helps you organize daily tasks, projects, and personal goals.",
+    "size": 24,
+    "reviews": 12540,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3450 },
+      { "name": "5 star", "count": 7030 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
+    "title": "MoneyMate",
+    "companyName": "FinanceHub",
+    "id": 2,
+    "description": "Track your expenses, manage your budget, and monitor your financial goals with ease.",
+    "size": 32,
+    "reviews": 18760,
+    "ratingAvg": 4.6,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 1750 },
+      { "name": "4 star", "count": 4920 },
+      { "name": "5 star", "count": 11060 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+    "title": "NewsDaily",
+    "companyName": "Global Media",
+    "id": 3,
+    "description": "Stay updated with the latest local and international news from trusted sources.",
+    "size": 18,
+    "reviews": 9340,
+    "ratingAvg": 4.4,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 380 },
+      { "name": "2 star", "count": 510 },
+      { "name": "3 star", "count": 1420 },
+      { "name": "4 star", "count": 2810 },
+      { "name": "5 star", "count": 4220 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db",
+    "title": "NoteMaster",
+    "companyName": "SmartApps",
+    "id": 4,
+    "description": "Create, organize, and manage your notes with powerful search and cloud synchronization.",
+    "size": 15,
+    "reviews": 15230,
+    "ratingAvg": 4.8,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 3210 },
+      { "name": "5 star", "count": 10520 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd",
+    "title": "FitTrack",
+    "companyName": "HealthWorks",
+    "id": 5,
+    "description": "Track workouts, monitor your fitness progress, and build healthy exercise habits.",
+    "size": 42,
+    "reviews": 22340,
+    "ratingAvg": 4.7,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 730 },
+      { "name": "3 star", "count": 1850 },
+      { "name": "4 star", "count": 5120 },
+      { "name": "5 star", "count": 14220 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb",
+    "title": "CoffeeFinder",
+    "companyName": "Urban Apps",
+    "id": 6,
+    "description": "Discover nearby coffee shops, explore menus, and find your perfect cup of coffee.",
+    "size": 21,
+    "reviews": 6870,
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 910 },
+      { "name": "4 star", "count": 2110 },
+      { "name": "5 star", "count": 3290 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "title": "BookShelf",
+    "companyName": "ReadMore",
+    "id": 7,
+    "description": "Manage your personal library, discover new books, and keep track of your reading progress.",
+    "size": 27,
+    "reviews": 11650,
+    "ratingAvg": 4.6,
+    "downloads": 4300000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1290 },
+      { "name": "4 star", "count": 3420 },
+      { "name": "5 star", "count": 6200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611746872915-64382b5c76da",
+    "title": "ChatConnect",
+    "companyName": "Connectify",
+    "id": 8,
+    "description": "Stay connected with friends and family through fast and reliable messaging.",
+    "size": 36,
+    "reviews": 31500,
+    "ratingAvg": 4.3,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 1520 },
+      { "name": "2 star", "count": 2140 },
+      { "name": "3 star", "count": 4820 },
+      { "name": "4 star", "count": 9140 },
+      { "name": "5 star", "count": 13880 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e",
+    "title": "PhotoPro",
+    "companyName": "PixelWorks",
+    "id": 9,
+    "description": "Edit your photos with creative filters, professional tools, and easy-to-use editing features.",
+    "size": 64,
+    "reviews": 19450,
+    "ratingAvg": 4.5,
+    "downloads": 9500000,
+    "ratings": [
+      { "name": "1 star", "count": 390 },
+      { "name": "2 star", "count": 710 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5240 },
+      { "name": "5 star", "count": 11010 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828",
+    "title": "TravelMate",
+    "companyName": "ExploreWorld",
+    "id": 10,
+    "description": "Plan trips, discover destinations, and organize your travel itinerary in one place.",
+    "size": 29,
+    "reviews": 13890,
+    "ratingAvg": 4.7,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 1150 },
+      { "name": "4 star", "count": 3850 },
+      { "name": "5 star", "count": 8340 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c",
+    "title": "WorkSpace",
+    "companyName": "Productive Labs",
+    "id": 11,
+    "description": "Boost productivity with project planning, team collaboration, and workplace organization tools.",
+    "size": 38,
+    "reviews": 8750,
+    "ratingAvg": 4.4,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 330 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1320 },
+      { "name": "4 star", "count": 2640 },
+      { "name": "5 star", "count": 3940 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8",
+    "title": "LearnHub",
+    "companyName": "EduTech",
+    "id": 12,
+    "description": "Learn new skills through interactive courses, tutorials, quizzes, and educational resources.",
+    "size": 45,
+    "reviews": 24560,
+    "ratingAvg": 4.8,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 490 },
+      { "name": "3 star", "count": 1540 },
+      { "name": "4 star", "count": 5320 },
+      { "name": "5 star", "count": 16930 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+    "title": "MusicBox",
+    "companyName": "SoundWave",
+    "id": 13,
+    "description": "Listen to your favorite music, create playlists, and discover new artists and songs.",
+    "size": 52,
+    "reviews": 28900,
+    "ratingAvg": 4.6,
+    "downloads": 18000000,
+    "ratings": [
+      { "name": "1 star", "count": 610 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 2760 },
+      { "name": "4 star", "count": 7420 },
+      { "name": "5 star", "count": 17130 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc",
+    "title": "ShopEasy",
+    "companyName": "RetailPro",
+    "id": 14,
+    "description": "Shop for products, compare prices, manage your wishlist, and enjoy a simple shopping experience.",
+    "size": 34,
+    "reviews": 17640,
+    "ratingAvg": 4.3,
+    "downloads": 11000000,
+    "ratings": [
+      { "name": "1 star", "count": 820 },
+      { "name": "2 star", "count": 1120 },
+      { "name": "3 star", "count": 2530 },
+      { "name": "4 star", "count": 4930 },
+      { "name": "5 star", "count": 8240 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+    "title": "CloudDrive",
+    "companyName": "DataCloud",
+    "id": 15,
+    "description": "Securely store, organize, sync, and share your files across all your devices.",
+    "size": 48,
+    "reviews": 20780,
+    "ratingAvg": 4.5,
+    "downloads": 13500000,
+    "ratings": [
+      { "name": "1 star", "count": 460 },
+      { "name": "2 star", "count": 690 },
+      { "name": "3 star", "count": 1890 },
+      { "name": "4 star", "count": 5180 },
+      { "name": "5 star", "count": 12560 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "title": "CodeEditor",
+    "companyName": "DevTools Inc",
+    "id": 16,
+    "description": "A lightweight code editor designed for developers with syntax highlighting and productivity tools.",
+    "size": 41,
+    "reviews": 10240,
+    "ratingAvg": 4.7,
+    "downloads": 4700000,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 870 },
+      { "name": "4 star", "count": 2760 },
+      { "name": "5 star", "count": 6150 }
+    ]
+  }
+]
