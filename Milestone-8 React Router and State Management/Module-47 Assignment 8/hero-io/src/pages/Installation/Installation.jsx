@@ -32,6 +32,7 @@ const Installation = () => {
 
     return (
         <div className="bg-[#F5F5F5]">
+            <title>Hero-IO: Installation</title>
             <div className="max-w-300 mx-auto py-5 md:py-10 lg:py-20 px-2 lg:px-0">
                 <div className="text-center pb-3 md:pb-7 lg:pb-10">
                     <h2 className="text-2xl md:text-5xl text-[#001931] font-bold">Your Installed Apps</h2>

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import downloadsIcon from "../../assets/icon-downloads.png";
 import ratingsIcon from "../../assets/icon-ratings.png";
@@ -25,6 +25,9 @@ const AppDetails = () => {
             setIsInstalled(true);
         }
     };
+    useEffect(() => {
+        document.title = `Hero-IO: App Details - ${title}`;
+    }, [title]);
 
 
     return (

@@ -5,6 +5,8 @@ import TopApps from "../../components/TopApps/TopApps";
 const Home = () => {
     return (
         <div>
+            <title>Hero-IO: Home</title>
+            <meta name="description" content="A hero.io website for useful apps" />
             <Banner></Banner>
             <States></States>
             <TopApps></TopApps>
