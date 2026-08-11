@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+nav a:last-child{
+    margin-right: 0px;
+}
+
+nav a.active{
+    text-decoration: underline;
+}
