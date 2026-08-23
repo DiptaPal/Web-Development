@@ -1,0 +1,11 @@
+nav a:hover {
+    color: black;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+#login-btn:hover {
+    color: #D72050;
+}
