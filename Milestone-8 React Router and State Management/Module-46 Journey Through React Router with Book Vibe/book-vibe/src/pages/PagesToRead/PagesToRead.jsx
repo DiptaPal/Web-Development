@@ -35,7 +35,7 @@ const TriangleBar = (props) => {
       stroke={color}
       fill={color}
       style={{
-        transition: 'stroke-width 0.3s ease-out',
+        transition: 'strokeWidth 0.3s ease-out',
       }}
     />
   );
