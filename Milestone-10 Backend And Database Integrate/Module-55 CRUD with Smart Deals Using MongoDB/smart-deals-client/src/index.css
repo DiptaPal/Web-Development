@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui" {
+   themes: light --default, dark --prefersdark;
+ }
+
+ *{
+    font-family: "Inter", sans-serif;
+ }
+
+ li a.active{
+   background: linear-gradient(125deg, #632EE3 5.68%, #9F62F2 88.38%);
+   background-clip: text;
+   font-weight: 700;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+
+ .gradient-border {
+  border: 1.5px solid transparent;
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(125deg, #632EE3 5.68%, #9F62F2 88.38%) border-box;
+  border-radius: 6px;
+}
+
+ .text-gradient{
+  opacity: 0.9;
+  background: var(--Linear, linear-gradient(125deg, #632EE3 5.68%, #9F62F2 88.38%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
