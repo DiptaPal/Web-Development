@@ -1,0 +1,117 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Wireless Headphones",
+            "price": 49.99,
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+            "description": "Wireless headphones with premium sound quality.",
+            "stock": 25,
+            "rating": 4.5
+        },
+        {
+            "id": "2",
+            "name": "Smart Watch",
+            "price": 79.99,
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+            "description": "Modern smartwatch for everyday use.",
+            "stock": 15,
+            "rating": 4.3
+        },
+        {
+            "id": "3",
+            "name": "Running Shoes",
+            "price": 59.99,
+            "category": "Fashion",
+            "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
+            "description": "Comfortable sports shoes for running and walking.",
+            "stock": 30,
+            "rating": 4.6
+        },
+        {
+            "id": "4",
+            "name": "Backpack",
+            "price": 34.99,
+            "category": "Accessories",
+            "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+            "description": "Durable backpack for school, work, and travel.",
+            "stock": 20,
+            "rating": 4.2
+        },
+        {
+            "id": "5",
+            "name": "Coffee Maker",
+            "price": 89.99,
+            "category": "Home Appliances",
+            "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80",
+            "description": "Coffee essentials for your daily brewing routine.",
+            "stock": 10,
+            "rating": 4.7
+        }
+    ],
+
+    "books": [
+        {
+            "id": "1",
+            "title": "Atomic Habits",
+            "author": "James Clear",
+            "price": 14.99,
+            "category": "Self-Help",
+            "image": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
+            "description": "A practical guide to building good habits, breaking bad ones, and making small changes that lead to remarkable results. Make your own habits",
+            "rating": 4.8,
+            "stock": 20,
+            "publishedYear": 2018
+        },
+        {
+            "id": "2",
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "price": 9.99,
+            "category": "Classic Fiction",
+            "image": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
+            "description": "A classic American novel exploring wealth, ambition, love, and the American Dream in the 1920s.",
+            "rating": 4.4,
+            "stock": 15,
+            "publishedYear": 1925
+        },
+        {
+            "id": "3",
+            "title": "The Psychology of Money",
+            "author": "Morgan Housel",
+            "price": 13.99,
+            "category": "Finance",
+            "image": "https://covers.openlibrary.org/b/isbn/9780857197689-L.jpg",
+            "description": "Lessons on how people think about money, make financial decisions, and build long-term wealth.",
+            "rating": 4.7,
+            "stock": 12,
+            "publishedYear": 2020
+        },
+        {
+            "id": "4",
+            "title": "Rich Dad Poor Dad",
+            "author": "Robert T. Kiyosaki",
+            "price": 11.99,
+            "category": "Personal Finance",
+            "image": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg",
+            "description": "A personal finance book about financial education, assets, liabilities, and different approaches to building wealth.",
+            "rating": 4.5,
+            "stock": 18,
+            "publishedYear": 1997
+        },
+        {
+            "id": "5",
+            "title": "The Hobbit",
+            "author": "J. R. R. Tolkien",
+            "price": 10.99,
+            "category": "Fantasy",
+            "image": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
+            "description": "A fantasy adventure following Bilbo Baggins on an unexpected journey with a group of dwarves.",
+            "rating": 4.8,
+            "stock": 10,
+            "publishedYear": 1937
+        }
+    ]
+}
