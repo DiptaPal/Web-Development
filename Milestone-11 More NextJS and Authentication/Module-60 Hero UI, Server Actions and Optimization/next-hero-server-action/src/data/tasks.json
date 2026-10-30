@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "title": "Complete React Tutorial",
+        "description": "Learn React hooks and component lifecycle.",
+        "category": "Learning",
+        "priority": "High",
+        "status": "Pending",
+        "dueDate": "2026-10-30",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Build a Portfolio Website",
+        "description": "Create a responsive portfolio using Next.js and Tailwind CSS.",
+        "category": "Development",
+        "priority": "High",
+        "status": "In Progress",
+        "dueDate": "2026-11-02",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "title": "Read a Programming Book",
+        "description": "Read one chapter about JavaScript fundamentals.",
+        "category": "Learning",
+        "priority": "Medium",
+        "status": "Pending",
+        "dueDate": "2026-11-01",
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "Update CV",
+        "description": "Update technical skills and recent project experience.",
+        "category": "Career",
+        "priority": "High",
+        "status": "Completed",
+        "dueDate": "2026-10-28",
+        "completed": true
+    },
+    {
+        "id": 5,
+        "title": "Apply for Developer Jobs",
+        "description": "Find suitable front-end developer positions and submit applications.",
+        "category": "Career",
+        "priority": "High",
+        "status": "Pending",
+        "dueDate": "2026-11-03",
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "Practice JavaScript",
+        "description": "Solve five JavaScript coding challenges.",
+        "category": "Learning",
+        "priority": "Medium",
+        "status": "In Progress",
+        "dueDate": "2026-10-31",
+        "completed": false
+    },
+    {
+        "id": 7,
+        "title": "Fix Website Bugs",
+        "description": "Resolve responsive layout and navigation issues.",
+        "category": "Development",
+        "priority": "High",
+        "status": "Pending",
+        "dueDate": "2026-11-04",
+        "completed": false
+    },
+    {
+        "id": 8,
+        "title": "Organize Workspace",
+        "description": "Clean up project folders and remove unused files.",
+        "category": "Personal",
+        "priority": "Low",
+        "status": "Completed",
+        "dueDate": "2026-10-27",
+        "completed": true
+    },
+    {
+        "id": 9,
+        "title": "Learn TypeScript",
+        "description": "Practice interfaces, types, and generics.",
+        "category": "Learning",
+        "priority": "Medium",
+        "status": "In Progress",
+        "dueDate": "2026-11-05",
+        "completed": false
+    },
+    {
+        "id": 10,
+        "title": "Deploy Next.js Project",
+        "description": "Deploy the project to Vercel and verify the production build.",
+        "category": "Development",
+        "priority": "High",
+        "status": "Pending",
+        "dueDate": "2026-11-06",
+        "completed": false
+    }
+]
